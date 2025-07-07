@@ -134,3 +134,7 @@ This project combines real-time object detection, optical character recognition 
 - [Streamlit Interface](./assets/streamlit_demo.png)
 
 ---
+##👨‍💻 Made by
+Harini Mode
+Shreya Karmakar
+Tejasri Anantapalli
