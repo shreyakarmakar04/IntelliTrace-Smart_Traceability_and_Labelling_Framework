@@ -56,7 +56,9 @@ This project combines real-time object detection, optical character recognition 
 ---
 
 ## 🔁 Process Flow  
-[Click here to view Process Flowchart](./assets/flowchart.png)
+[🔍 Click to view full image](./assets/Process_Flow.png)
+
+![Process Flow](./assets/Process_Flow.png)
 
 ---
 
@@ -69,7 +71,9 @@ This project combines real-time object detection, optical character recognition 
 ---
 
 ## 🏗️ Architecture Diagram  
-[Click here to view System Architecture](./assets/system_architecture.png)
+[🔍 Click to view full image](./assets/System_Architecture.png)
+
+![System Architecture](./assets/System_Architecture.png)
 
 ---
 
