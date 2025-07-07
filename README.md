@@ -89,13 +89,13 @@ This project combines real-time object detection, optical character recognition 
 
 ---
 
-## 🧪 Dataset and Defect Detection
+## 🧪 Datasets For Defect Detection(ML) & Label Detection(OpenCV)
 
-### 🔹 Label Dataset
+### 🔹 Label Dataset(YOLOv5)
 - 198 QR Code images + 248 Label images annotated using LabelImg
 - Format: YOLOv5 `.txt` annotations
 
-### 🔹 Defect Dataset
+### 🔹 Defect Dataset(ResNet18)
 - MVTec AD "Bottle" dataset used for ResNet training
 - Binary classification: normal vs defective
 
