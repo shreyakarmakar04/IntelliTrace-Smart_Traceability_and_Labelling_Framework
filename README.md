@@ -99,6 +99,21 @@ This project combines real-time object detection, optical character recognition 
 
 ## 📊 Results Summary
 
+### 🔹 YOLOv5 Detection Model
+
+| Metric     | Value |
+|------------|--------|
+| Precision  | 0.982  |
+| Recall     | 0.967  |
+| mAP@0.5    | 0.975  |
+| mAP@0.5:0.95 | 0.881 |
+
+> Trained with 198 QR images + 248 label images on YOLOv5s for 50 epochs.
+
+---
+
+### 🔹 ML Defect Detection Model (ResNet18 + PCA + OCSVM)
+
 | Metric     | Value |
 |------------|--------|
 | Accuracy   | 98%    |
@@ -106,6 +121,7 @@ This project combines real-time object detection, optical character recognition 
 | Recall     | 95%    |
 | F1-Score   | 97%    |
 
+> Evaluated using MVTec AD Bottle dataset. Only clean images used for training. Anomalies classified via One-Class SVM.
 ---
 
 ## 🖼️ Sample Output Snapshots
