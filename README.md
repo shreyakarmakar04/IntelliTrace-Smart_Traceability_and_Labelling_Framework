@@ -6,8 +6,8 @@ An intelligent product traceability and labeling system that integrates YOLOv5-b
 ## 📚 Table of Contents
 - [🎯 Objective](#-objective)
 - [🧩 Problem Description](#-problem-description)
-- [ℹ️ About the Project](#️-about-the-project)
-- [⚙️ How It Works](#-how-it-works)
+- [ℹ️ About the Project](#about-the-project)
+- [⚙️ How It Works](#how-it-works)
 - [🔁 Process Flow](#-process-flow)
 - [🔍 Technical Details](#-technical-details)
 - [🏗️ Architecture Diagram](#-architecture-diagram)
