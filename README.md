@@ -64,7 +64,7 @@ This project combines real-time object detection, optical character recognition 
 - **Model Training**: YOLOv5s trained for 2-class detection (QR + Label)  
 - **OCR & QR Decoding**: EasyOCR + Tesseract + Pyzbar  
 - **CNN Anomaly Detection**: ResNet18 for feature extraction, PCA for dimensionality reduction, and One-Class SVM for classification  
-- **Result Export**: Excel sheet and SQLite DB with color-coded outcomes  
+- **Result Export**: Excel sheet and SQLite DB   
 
 ---
 
