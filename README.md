@@ -135,6 +135,6 @@ This project combines real-time object detection, optical character recognition 
 
 ---
 ##👨‍💻 Made by
-Harini Mode
-Shreya Karmakar
-Tejasri Anantapalli
+-Harini Mode
+-Shreya Karmakar
+-Tejasri Anantapalli
