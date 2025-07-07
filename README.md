@@ -49,10 +49,14 @@ This project combines real-time object detection, optical character recognition 
 1. **Image Input** – Static product images from dataset  
 2. **Detection** – YOLOv5 detects QR and label regions  
 3. **Extraction** – Pyzbar decodes QR/barcodes; Tesseract extracts text from label  
-4. **Validation** – Extracted text is compared to known data (Excel/SQLite)  
-5. **Defect Detection** – ResNet18 + OCSVM checks for anomalies  
-6. **Output** – Decision (APPROVED / REJECTED) logged to Excel and DB  
-
+4. **Metadata Parsed from Labels and QR Codes:**
+   - 📦 **Device ID**
+   - 🧪 **Batch ID**
+   - 🛡️ **RoHS Compliance**
+   - 📅 **Manufacturing Date**
+5. **Validation** – Extracted text is compared to known data (Excel/SQLite)  
+6. **Defect Detection** – ResNet18 + OCSVM checks for surface anomalies  
+7. **Output** – Final status (`APPROVED` / `REJECTED`) is logged to Excel and SQLite DB
 ---
 
 ## 🔁 Process Flow  
