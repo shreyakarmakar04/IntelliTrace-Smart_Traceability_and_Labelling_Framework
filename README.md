@@ -126,7 +126,10 @@ This project is a software-only simulation of an AI-powered smart traceability a
 | GUI                  | Streamlit                                |
 
 
+> **use command**: sudo apt-get install -y tesseract-ocr libzbar0
+(To ensure pytesseract and pyzbar work correctly in any system environment)
 ---
+> YOLOv5 Model does not use PyPI package Ultralytics, instead it clones YOLOv5 GitHub Repository: **git clone https://github.com/ultralytics/yolov5** and runs train.py, export.py, etc. from it.
 
 ## 🧪 Datasets For Defect Detection(ML) & Label Detection(OpenCV)
 
