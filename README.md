@@ -86,10 +86,21 @@ This project is a software-only simulation of an AI-powered smart traceability a
 ---
 
 ## 🔍 Technical Details
-- **Model Training**: YOLOv5s trained for 2-class detection (QR + Label)  
+- **Label Detection Model Training**: YOLOv5s trained for 2-class detection (QR + Label)  
 - **OCR & QR Decoding**: EasyOCR + Tesseract + Pyzbar  
-- **CNN Anomaly Detection**: ResNet18 for feature extraction, PCA for dimensionality reduction, and One-Class SVM for classification  
-- **Result Export**: Excel sheet and SQLite DB   
+- **CNN Defect(Anomaly) Detection**: ResNet18 for feature extraction, PCA for dimensionality reduction, and One-Class SVM for classification  
+- **Result Export**: Excel sheet and SQLite DB
+- **Product Verification**:
+  - Extracts `Device ID`, `Batch ID`, `Manufacturing Date`, `RoHSCompliance`
+  - Validates formats and presence
+- **Label Generation**:
+  - Generates QR Code + Product Metadata into final label
+- **Final Logic**:
+  1. RoHS = no → REJECTED
+  2. OCR mismatch → REJECTED
+  3. CNN detects anomaly → REJECTED
+  4. Else → APPROVED
+
 
 ---
 
@@ -101,14 +112,19 @@ This project is a software-only simulation of an AI-powered smart traceability a
 ---
 
 ## 🛠️ Key Technologies and Libraries
-- Python (v3.8+)
-- YOLOv5 (Ultralytics)
-- Tesseract OCR, EasyOCR
-- Pyzbar, OpenCV
-- Scikit-learn, PCA, One-Class SVM
-- Streamlit (optional frontend)
-- Pandas, OpenPyXL
-- SQLite3
+
+
+| Category             | Tools / Libraries                        |
+|----------------------|------------------------------------------|
+| Programming Language | Python 3.8+                              |
+| OCR                  | EasyOCR, Tesseract                       |
+| Object Detection     | YOLOv5 (custom trained using Ultralytics)|
+| CV & Processing      | OpenCV, PIL, Pyzbar                      |
+| ML Framework         | PyTorch, Scikit-learn                    |
+| Visualization        | Matplotlib, Streamlit                    |
+| Data Logging         | Pandas, SQLite, OpenPyXL                 |
+| GUI                  | Streamlit                                |
+
 
 ---
 
@@ -119,7 +135,12 @@ This project is a software-only simulation of an AI-powered smart traceability a
 - Format: YOLOv5 `.txt` annotations
 
 ### 🔹 Defect Dataset(ResNet18)
-- MVTec AD "Bottle" dataset used for ResNet training
+- **Dataset**: MVTec AD – *Bottle category*
+- **Used**: 50 images (45 good, 5 defective)
+- **Defect Detection Pipeline**:
+  - Feature extraction: **ResNet18**
+  - Anomaly Detection: **PCA + OCSVM**
+- **Accuracy Achieved**: 98%
 - Binary classification: normal vs defective
 
 ---
@@ -149,6 +170,21 @@ This project is a software-only simulation of an AI-powered smart traceability a
 | F1-Score   | 97%    |
 
 > Evaluated using MVTec AD Bottle dataset. Only clean images used for training. Anomalies classified via One-Class SVM.
+
+### 🔹 Data Logging (SQLite + Excel)
+
+| Metric              | Value        |
+|---------------------|--------------|
+| AUROC               | 1.0000       |
+| Average Precision   | 1.0000       |
+| Accuracy            | 98%          |
+| False Positives     | 0            |
+| False Negatives     | 1 (of 50)    |
+
+All results stored in:
+- `final_combined_result55.xlsx`  
+- `inspection_results.db` (SQLite)
+
 ---
 
 ## 🖼️ Sample Output Snapshots
