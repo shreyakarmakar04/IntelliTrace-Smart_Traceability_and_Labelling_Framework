@@ -194,6 +194,23 @@ All results stored in:
 
 ---
 
+## ▶️ How to Run the Project
+
+1. Clone this repo:
+   git clone https://github.com/shreyakarmakar04/IntelliTrace-Smart_Traceability_and_Labelling_Framework.git
+   cd IntelliTrace-Smart_Traceability_and_Labelling_Framework
+
+2. Install dependencies:
+   pip install -r requirements.txt
+
+3. Run main inspection logic:
+   python final_inspection.py
+
+4. Launch Streamlit UI (Optional):
+   streamlit run result_viewer.py
+
+---
+
 ## 📘 Detailed Report  
 You can view the full project report here:  
 👉 [View Google Doc Report](https://docs.google.com/document/d/1lR9Za-bqJfLCcYNGp4aTHUlhoaFcjEZ4LPQhaUzD8AU/edit?usp=sharing)
