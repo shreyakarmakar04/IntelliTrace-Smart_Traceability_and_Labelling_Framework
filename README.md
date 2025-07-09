@@ -167,7 +167,7 @@ A complete walkthrough video showcasing the entire process—from product arriva
 A structured PowerPoint presentation explaining the project's motivation, components, architecture, dataset usage, working methodology, and results. <br>
 It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  <br>
 Right-click and choose “Save Link As” to download →  
-[⬇️ Download Solution Slides (PPTX)](./problem%20statement%20and%20solution%20steps%20ppt.pptx)
+[⬇️ Download Solution Slides (PPTX)](problem_statement_and_solution_steps_ppt.pptx)
 
 
 
