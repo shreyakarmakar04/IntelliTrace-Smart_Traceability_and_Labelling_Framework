@@ -238,11 +238,10 @@ All results stored in:
 
 ├── YOLO Model Weights/
 │   ├── best.pt
-│   ├── .gitkeep
 │   └── Exported Model Weights/
 │       ├── best.onnx
 │       ├── best-fp16.tflite
-│       └── .gitkeep
+       
 
 ├── assets/
 │   ├── CNN_Based_defect_detection.png
@@ -252,7 +251,6 @@ All results stored in:
 │   ├── demo-thumbnail.jpg
 │   ├── excel_output_summary.png
 │   ├── ocr+qr_decode_result.png
-│   ├── placeholder.txt
 │   ├── sqlite_log_table.png
 │   └── streamlit.png
 
@@ -261,21 +259,18 @@ All results stored in:
 │   └── label_dataset(YOLOv5 training)/
 │       ├── images/
 │       ├── labels/
-│       ├── Final_Traceability_data.xlsx
-│       └── .gitkeep
+│   ├── Final_Traceability_data.xlsx
 
 ├── images/
 │   ├── final_labels11/
 │   ├── label_images/
 │   ├── qrcodes/
-│   └── .gitkeep
 
 ├── outputs/
 │   ├── Rejected_Log.csv
 │   ├── final_combined_results.xlsx
 │   ├── inspection_results.db
 │   ├── total_label(1).xlsx
-│   └── .gitkeep
 
 ├── report/
 │   ├── Intel_final_document(project_report).pdf
