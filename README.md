@@ -131,6 +131,7 @@ This project is a software-only simulation of an AI-powered smart traceability a
 ---
 > YOLOv5 Model does not use PyPI package Ultralytics, instead it clones YOLOv5 GitHub Repository: **git clone https://github.com/ultralytics/yolov5** and runs train.py, export.py, etc. from it.
 
+---
 
 ## 🧪 Datasets For Defect Detection(ML) & Label Detection(OpenCV)
 
@@ -162,7 +163,6 @@ This project is a software-only simulation of an AI-powered smart traceability a
 
 > Trained with 198 QR images + 248 label images on YOLOv5s for 50 epochs.
 
----
 
 ### 🔹 ML Defect Detection Model (ResNet18 + PCA + OCSVM)
 
@@ -174,6 +174,7 @@ This project is a software-only simulation of an AI-powered smart traceability a
 | F1-Score   | 97%    |
 
 > Evaluated using MVTec AD Bottle dataset. Only clean images used for training. Anomalies classified via One-Class SVM.
+
 
 ### 🔹 Data Logging (SQLite + Excel)
 
