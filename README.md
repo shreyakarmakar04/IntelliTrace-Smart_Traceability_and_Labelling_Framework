@@ -196,8 +196,8 @@ All results stored in:
 
 ## ▶️ How to Run the Project
 
-1. Clone this repo:
-   git clone https://github.com/shreyakarmakar04/IntelliTrace-Smart_Traceability_and_Labelling_Framework.git
+1. Clone this repo:<br>
+   git clone https://github.com/shreyakarmakar04/IntelliTrace-Smart_Traceability_and_Labelling_Framework.git<br>
    cd IntelliTrace-Smart_Traceability_and_Labelling_Framework
 
 2. Install dependencies:
