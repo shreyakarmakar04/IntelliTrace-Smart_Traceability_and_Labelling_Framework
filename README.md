@@ -166,7 +166,9 @@ A complete walkthrough video showcasing the entire process—from product arriva
 ## 📊 Project Presentation (PPT)
 A structured PowerPoint presentation explaining the project's motivation, components, architecture, dataset usage, working methodology, and results. <br>
 It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  <br>
-[📂 Download PPT](problem statement and solution steps ppt.pptx)
+Right-click and choose “Save Link As” to download →  
+[⬇️ Download Solution Slides (PPTX)](./problem%20statement%20and%20solution%20steps%20ppt.pptx)
+
 
 
 
