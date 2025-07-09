@@ -167,7 +167,7 @@ A complete walkthrough video showcasing the entire process—from product arriva
 A structured PowerPoint presentation explaining the project's motivation, components, architecture, dataset usage, working methodology, and results. <br>
 It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  <br>
 Right-click and choose “Save Link As” to download →  
-[⬇️ Download Solution Slides (PPTX)](problem_statement_and_solution_steps_ppt.pptx)
+[⬇️ Download Solution Slides (PPTX)](https://github.com/shreyakarmakar04/IntelliTrace-Smart_Traceability_and_Labelling_Framework/raw/main/problem_statement_and_solution_steps_ppt.pptx)
 
 
 
