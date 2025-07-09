@@ -223,6 +223,67 @@ All results stored in:
 
 ## 📂 Folder Structure
 
+```
+├── Src/
+│   ├── FinalInspectionResults.sql
+│   ├── QRCodes_generation.py
+│   ├── YOLOv5 Detection Model.py
+│   ├── YOLOv5 Inference On Image Dataset.py
+│   ├── futher_enhanced_StreamlitUI.py
+│   ├── label_final.py
+│   ├── ml.py
+│   ├── product_arrival&verification.py
+│   ├── sqlite_final.py
+│   └── yolomodeltestingwithcam.py
+
+├── YOLO Model Weights/
+│   ├── best.pt
+│   ├── .gitkeep
+│   └── Exported Model Weights/
+│       ├── best.onnx
+│       ├── best-fp16.tflite
+│       └── .gitkeep
+
+├── assets/
+│   ├── CNN_Based_defect_detection.png
+│   ├── Process_Flow.png
+│   ├── System_Architecture.png
+│   ├── YOLO_webcam_detection.jpg
+│   ├── demo-thumbnail.jpg
+│   ├── excel_output_summary.png
+│   ├── ocr+qr_decode_result.png
+│   ├── placeholder.txt
+│   ├── sqlite_log_table.png
+│   └── streamlit.png
+
+├── datasets/
+│   ├── bottle images/
+│   └── label_dataset(YOLOv5 training)/
+│       ├── images/
+│       ├── labels/
+│       ├── Final_Traceability_data.xlsx
+│       └── .gitkeep
+
+├── images/
+│   ├── final_labels11/
+│   ├── label_images/
+│   ├── qrcodes/
+│   └── .gitkeep
+
+├── outputs/
+│   ├── Rejected_Log.csv
+│   ├── final_combined_results.xlsx
+│   ├── inspection_results.db
+│   ├── total_label(1).xlsx
+│   └── .gitkeep
+
+├── report/
+│   ├── Intel_final_document(project_report).pdf
+│   └── problem_statement_and_solution_steps.pptx
+
+├── README.md
+├── requirements.txt
+```
 
 ---
 
