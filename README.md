@@ -159,7 +159,8 @@ This project is a software-only simulation of an AI-powered smart traceability a
 
 ## 📽️ Video Demonstration
 A complete walkthrough video showcasing the entire process—from product arrival, RoHS compliance check, label and QR code verification using YOLOv5 and OCR, ML-based defect detection, and final traceability log entry into SQLite and Excel databases. This visual explanation covers every stage of the automation flow including pass/fail decisions and rejected label handling.
-📎 Watch Demo Video---> (https://via.placeholder.com/800x450.png?text=Click+to+watch+demo)](https://drive.google.com/file/d/11Y9RNc-MASSk43raTl220d2EmFp7qu7U/view?usp=sharing)
+📎 Watch Demo Video---> [![Watch Demo](./demo-thumbnail.png)](https://drive.google.com/file/d/YOUR_FILE_ID/view?usp=sharing)
+
 
 ---
 ## 📊 Project Presentation (PPT)
