@@ -18,8 +18,8 @@ An intelligent product traceability and labeling system that integrates YOLOv5-b
 - [▶️ How to Run the Project](#-how-to-run-the-project)
 - [📂 Folder Structure](#-folder-structure)
 - [📘 Detailed Report](#-detailed-report) 
-- [📽️ Video Demonstration](#-)           _(-->shreya here also)_
-- [📊 Project Presentation (PPT)](#-)     _(-->shreya here also)_
+- [📽️ Video Demonstration](#-)           
+- [📊 Project Presentation (PPT)](#-)     
 - [👨‍💻 Made by](#-made-by)
 
 ---
@@ -158,13 +158,15 @@ This project is a software-only simulation of an AI-powered smart traceability a
 ---
 
 ## 📽️ Video Demonstration
-A complete walkthrough video showcasing the entire process—from product arrival, RoHS compliance check, label and QR code verification using YOLOv5 and OCR, ML-based defect detection, and final traceability log entry into SQLite and Excel databases. This visual explanation covers every stage of the automation flow including pass/fail decisions and rejected label handling.
+A complete walkthrough video showcasing the entire process—from product arrival, RoHS compliance check, label and QR code verification using YOLOv5 and OCR, ML-based defect detection, and final traceability log entry into SQLite and Excel databases. This visual explanation covers every stage of the automation flow including pass/fail decisions and rejected label handling.<br>
 📎 Watch Demo Video---> [![Watch Demo](assets/demo-tumbnail.jpg)](https://drive.google.com/file/d/11Y9RNc-MASSk43raTl220d2EmFp7qu7U/view?usp=sharing)
 
 
 ---
 ## 📊 Project Presentation (PPT)
-A structured PowerPoint presentation explaining the project's motivation, components, architecture, dataset usage, working methodology, and results. It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  (--->> shreya add the final ppt here na)_
+A structured PowerPoint presentation explaining the project's motivation, components, architecture, dataset usage, working methodology, and results. <br>
+It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  <br>
+[📂 Download PPT](problem statement and solution steps ppt.pptx)
 
 
 
