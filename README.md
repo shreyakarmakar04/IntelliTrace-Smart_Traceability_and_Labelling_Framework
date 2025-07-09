@@ -223,6 +223,7 @@ You can view the full project report here:
 
 ## 📽️ Video Demonstration
 A complete walkthrough video showcasing the entire process—from product arrival, RoHS compliance check, label and QR code verification using YOLOv5 and OCR, ML-based defect detection, and final traceability log entry into SQLite and Excel databases. This visual explanation covers every stage of the automation flow including pass/fail decisions and rejected label handling.<br>
+<br>
 📎 Watch Demo Video---> [![Watch Demo](assets/demo-tumbnail.jpg)](https://drive.google.com/file/d/11Y9RNc-MASSk43raTl220d2EmFp7qu7U/view?usp=sharing)
 
 
