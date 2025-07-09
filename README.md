@@ -23,7 +23,8 @@ An intelligent product traceability and labeling system that integrates YOLOv5-b
 ---
 
 ## 🎯 Objective
-To build an AI-powered software simulation that automates product label inspection using object detection, OCR, QR/barcode decoding, and CNN-based defect detection to validate and trace manufacturing labels.
+To develop an AI-powered smart product inspection and labeling system that automates the end-to-end process of label verification and defect detection. The system simulates product arrival,checks ROHS Compliance, performs object detection, OCR, barcode/QR decoding, and CNN-based defect analysis to validate key manufacturing metadata such as Device ID, Batch ID, Manufacturing Date, and RoHS Compliance. All inspection results and decisions are logged into an SQLite database and Excel report to ensure traceability, enhance quality control, and support efficient manufacturing workflows.
+
 
 ---
 
@@ -37,26 +38,41 @@ In high-volume manufacturing industries like electronics and medical devices, ma
 ---
 
 ## ℹ️ About the Project
-This project combines real-time object detection, optical character recognition (OCR), and machine learning to create an intelligent labeling station. It:
+//This project combines real-time object detection, optical character recognition (OCR), and machine learning to create an intelligent labeling station. It:
 - Uses YOLOv5 to detect and extract QR and label regions
 - Extracts and validates metadata like Device ID, Batch ID, RoHS compliance
 - Uses ResNet18 + PCA + OCSVM to detect visual anomalies
-- Stores results in Excel and SQLite databases for traceability
+//- Stores results in Excel and SQLite databases for traceability
+This project is a software-only simulation of an AI-powered smart traceability and labeling station for small electronic products. It automates the inspection process by integrating object detection, OCR, QR/barcode decoding, and machine learning-based defect detection. The system mimics a real-world industrial setup and handles the complete inspection lifecycle, including:
+
+1.Product Arrival Simulation
+2.RoHS Compliance Validation
+3.QR/Barcode Decoding for metadata extraction
+4.Label Detection & Verification using YOLOv5 and EasyOCR
+5.Visual Defect Detection using ResNet18 + PCA + One-Class SVM
+6.Approval or Rejection based on combined inspection outcomes
+7.Traceability Logging into Excel and SQLite databases
+8.It uses tools like YOLOv5, EasyOCR, OpenCV, ResNet18, PCA, One-Class SVM, SQLite, and Streamlit to create a fully functional simulation of an automated smart inspection station.
 
 ---
 
 ## ⚙️ How It Works
-1. **Image Input** – Static product images from dataset  
-2. **Detection** – YOLOv5 detects QR and label regions  
-3. **Extraction** – Pyzbar decodes QR/barcodes; Tesseract extracts text from label  
-4. **Metadata Parsed from Labels and QR Codes:**
+1.**Product Arrival:** Product enters the station via simulation or image input and RoHS Compliance & Metadata Validation done.
+2. **Image Input** – Static product images from dataset  
+3. **Detection** – YOLOv5 detects QR and label regions  
+4. **Extraction** – Pyzbar decodes QR/barcodes; Tesseract extracts text from label  
+5. **Metadata Parsed from Labels and QR Codes:**
    - 📦 **Device ID**
    - 🧪 **Batch ID**
    - 🛡️ **RoHS Compliance**
    - 📅 **Manufacturing Date**
-5. **Validation** – Extracted text is compared to known data (Excel/SQLite)  
-6. **Defect Detection** – ResNet18 + OCSVM checks for surface anomalies  
-7. **Output** – Final status (`APPROVED` / `REJECTED`) is logged to Excel and SQLite DB
+6. **Validation** – Extracted text is compared to known data (Excel/SQLite)  
+7. **Defect Detection** – ResNet18 + OCSVM checks for surface anomalies  
+8. **Output** – Final status (`APPROVED` / `REJECTED`) is logged to Excel and SQLite DB
+     If RoHS = "no" → REJECTED
+     If OCR/QR mismatch → REJECTED
+     If CNN detects defect → REJECTED
+     Else → APPROVED
 ---
 
 ## 🔁 Process Flow  
