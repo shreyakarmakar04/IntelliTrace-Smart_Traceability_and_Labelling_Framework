@@ -40,20 +40,20 @@ In high-volume manufacturing industries like electronics and medical devices, ma
 ---
 
 ## ℹ️ About the Project
-//This project combines real-time object detection, optical character recognition (OCR), and machine learning to create an intelligent labeling station. It:
+This project combines real-time object detection, optical character recognition (OCR), and machine learning to create an intelligent labeling station. It:
 - Uses YOLOv5 to detect and extract QR and label regions
 - Extracts and validates metadata like Device ID, Batch ID, RoHS compliance
 - Uses ResNet18 + PCA + OCSVM to detect visual anomalies
-//- Stores results in Excel and SQLite databases for traceability
-This project is a software-only simulation of an AI-powered smart traceability and labeling station for small electronic products. It automates the inspection process by integrating object detection, OCR, QR/barcode decoding, and machine learning-based defect detection. The system mimics a real-world industrial setup and handles the complete inspection lifecycle, including:
+- Stores results in Excel and SQLite databases for traceability<br>
+This project is a software-only simulation of an AI-powered smart traceability and labeling station for small electronic products. It automates the inspection process by integrating object detection, OCR, QR/barcode decoding, and machine learning-based defect detection. The system mimics a real-world industrial setup and handles the complete inspection lifecycle, including:<br>
 
-1.Product Arrival Simulation
-2.RoHS Compliance Validation
-3.QR/Barcode Decoding for metadata extraction
-4.Label Detection & Verification using YOLOv5 and EasyOCR
-5.Visual Defect Detection using ResNet18 + PCA + One-Class SVM
-6.Approval or Rejection based on combined inspection outcomes
-7.Traceability Logging into Excel and SQLite databases
+1.Product Arrival Simulation<br>
+2.RoHS Compliance Validation<br>
+3.QR/Barcode Decoding for metadata extraction<br>
+4.Label Detection & Verification using YOLOv5 and EasyOCR<br>
+5.Visual Defect Detection using ResNet18 + PCA + One-Class SVM<br>
+6.Approval or Rejection based on combined inspection outcomes<br>
+7.Traceability Logging into Excel and SQLite databases<br>
 8.It uses tools like YOLOv5, EasyOCR, OpenCV, ResNet18, PCA, One-Class SVM, SQLite, and Streamlit to create a fully functional simulation of an automated smart inspection station.
 
 ---
