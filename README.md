@@ -170,11 +170,9 @@ It includes diagrams, sample outputs, and key insights for stakeholders or revie
 Right-click and choose “Save Link As” to download →  
 [⬇️ Download Solution Slides (PPTX)](https://github.com/shreyakarmakar04/IntelliTrace-Smart_Traceability_and_Labelling_Framework/raw/main/problem_statement_and_solution_steps_ppt.pptx)
 
+---
 
-
-
-
-##👨‍💻 Made by
+👨‍💻 Made by
 - **Harini Mode**
 - **Shreya Karmakar**
 - **Tejasri Anantapalli**
