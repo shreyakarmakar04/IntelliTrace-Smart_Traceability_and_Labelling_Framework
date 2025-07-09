@@ -45,6 +45,7 @@ This project combines real-time object detection, optical character recognition 
 - Extracts and validates metadata like Device ID, Batch ID, RoHS compliance
 - Uses ResNet18 + PCA + OCSVM to detect visual anomalies
 - Stores results in Excel and SQLite databases for traceability<br>
+
 This project is a software-only simulation of an AI-powered smart traceability and labeling station for small electronic products. It automates the inspection process by integrating object detection, OCR, QR/barcode decoding, and machine learning-based defect detection. The system mimics a real-world industrial setup and handles the complete inspection lifecycle, including:<br>
 
 1.Product Arrival Simulation<br>
