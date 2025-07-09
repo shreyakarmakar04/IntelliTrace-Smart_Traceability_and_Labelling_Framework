@@ -1,0 +1,32 @@
+# CORE DEEP LEARNING + DETECTION
+torch==2.2.2
+torchvision==0.17.2
+PyYAML==6.0.1
+scipy==1.13.0
+
+# IMAGE PROCESSING & TRANSFORMS
+opencv-python-headless==4.9.0.80
+Pillow==10.3.0
+numpy==1.26.4
+
+# DATA HANDLING & EXCEL EXPORT
+pandas==2.2.2
+openpyxl==3.1.2
+joblib==1.4.2
+
+# MACHINE LEARNING & ANOMALY DETECTION
+scikit-learn==1.5.1
+
+# OCR & QR CODE PROCESSING
+pytesseract==0.3.10
+pyzbar==0.1.9
+easyocr==1.7.1
+qrcode==7.4.2
+
+# VISUALIZATION & UI
+matplotlib==3.9.0
+seaborn==0.13.2
+streamlit==1.44.1
+
+# UTILITY
+tqdm==4.66.4
