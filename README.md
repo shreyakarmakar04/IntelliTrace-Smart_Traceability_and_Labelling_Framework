@@ -131,11 +131,12 @@ This project is a software-only simulation of an AI-powered smart traceability a
 ---
 > YOLOv5 Model does not use PyPI package Ultralytics, instead it clones YOLOv5 GitHub Repository: **git clone https://github.com/ultralytics/yolov5** and runs train.py, export.py, etc. from it.
 
+
 ## 🧪 Datasets For Defect Detection(ML) & Label Detection(OpenCV)
 
 ### 🔹 Label Dataset(YOLOv5)
-- 198 QR Code images + 248 Label images annotated using LabelImg
-- Format: YOLOv5 `.txt` annotations
+- **Used**: 198 QR Code images + 248 Label images annotated using LabelImg
+- **Format**: YOLOv5 `.txt` annotations
 
 ### 🔹 Defect Dataset(ResNet18)
 - **Dataset**: MVTec AD – *Bottle category*
