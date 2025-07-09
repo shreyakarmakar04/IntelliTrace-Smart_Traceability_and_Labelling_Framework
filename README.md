@@ -193,9 +193,14 @@ All results stored in:
 ---
 
 ## 🖼️ Sample Output Snapshots
-- [Excel Summary Output](./assets/excel_output.png)
-- [SQLite Log Table](./assets/sqlite_table.png)
-- [Streamlit Interface](./assets/streamlit_demo.png)
+- [Product Image at Arrival](./assets/excel_output.png)
+- [CNN Based Defect Detection Result](./assets/CNN_Based_defect_detection.png)
+- [OCR + QR Decoding Result](./assets/ocr+qr_decode_result.png)
+- [YOLO Webcam Detection Output](./assets/YOLO_webcam_detection.jpg)
+- [Excel Summary Output](./assets/excel_output_summary.png)
+- [SQLite Log Table](./assets/sqlite_log_table.png)
+- [Streamlit Interface](./assets/streamlit.png)
+
 
 ---
 
