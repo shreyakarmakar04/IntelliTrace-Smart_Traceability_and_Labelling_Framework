@@ -17,7 +17,9 @@ An intelligent product traceability and labeling system that integrates YOLOv5-b
 - [🖼️ Sample Output Snapshots](#-sample-output-snapshots)
 - [▶️ How to Run the Project](#-how-to-run-the-project)
 - [📂 Folder Structure](#-folder-structure)
-- [📘 Detailed Report](#-detailed-report)
+- [📘 Detailed Report](#-detailed-report) 
+- [📽️ Video Demonstration](#-)           _(-->shreya here also)_
+- [📊 Project Presentation (PPT)](#-)     _(-->shreya here also)_
 - [👨‍💻 Made by](#-made-by)
 
 ---
@@ -154,6 +156,18 @@ This project is a software-only simulation of an AI-powered smart traceability a
 - [Streamlit Interface](./assets/streamlit_demo.png)
 
 ---
+
+## 📽️ Video Demonstration
+A complete walkthrough video showcasing the entire process—from product arrival, RoHS compliance check, label and QR code verification using YOLOv5 and OCR, ML-based defect detection, and final traceability log entry into SQLite and Excel databases. This visual explanation covers every stage of the automation flow including pass/fail decisions and rejected label handling.
+📎 Watch Demo Video _(--->> shreya add the link here na video one)_
+
+---
+## 📊 Project Presentation (PPT)
+A structured PowerPoint presentation explaining the project's motivation, components, architecture, dataset usage, working methodology, and results. It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  (--->> shreya add the final ppt here na)_
+
+
+
+
 ##👨‍💻 Made by
 - **Harini Mode**
 - **Shreya Karmakar**
