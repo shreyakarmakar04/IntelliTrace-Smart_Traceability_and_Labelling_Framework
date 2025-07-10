@@ -328,17 +328,17 @@ All results stored in:
 		
                 Python file: yolomodeltestingwithcam.py (Src)
                 
-		Output: YOLO_webcam_detection.jpg (outputs)
+	        Output: YOLO_webcam_detection.jpg (outputs)
     
     3.Yolo + OCR + QR Decode:
     
                 Required input file: best.pt (YOLO Model Weights)
 		                     label_images (images)
 	        
-	        Python file: YOLOv5 Inference On Image Dataset.py (Src)
+	         Python file: YOLOv5 Inference On Image Dataset.py (Src)
   
                 Outputs: full_bounded_images (outputs)
-		         total_label(1).xlsx (outputs)
+		          total_label(1).xlsx (outputs)
 
 ### 4.CNN Based Defect Detection
     
