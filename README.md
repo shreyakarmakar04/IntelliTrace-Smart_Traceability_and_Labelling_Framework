@@ -293,7 +293,7 @@ All results stored in:
  
 	Python file: product_arrival&verification.py (Src)
 	
-	output: Rejected_Log.csv (outputs)
+	Output: Rejected_Log.csv (outputs)
 
 ### 2. Creation of label:
     1. Creation of QRCodes:
@@ -302,7 +302,7 @@ All results stored in:
 
 		Python file: QRCodes_generation.py (Src)
 		
-		output: qrcodes (images)
+		Output: qrcodes (images)
 
     2. Creation of Label:
 		Required input files: Final_Traceability_data.xlsx (datasets)
@@ -310,7 +310,7 @@ All results stored in:
 
 		Python file: label_final.py(Src)
 		
-		output: final_labels11 (images)
+		Output: final_labels11 (images)
 ### 3.YOLOv5
     1.YOLOv5 Model Training:
     
@@ -338,7 +338,7 @@ All results stored in:
 	            Python file: YOLOv5 Inference On Image Dataset.py (Src)
   
                 Output: full_bounded_images (outputs)
-		          total_label(1).xlsx (outputs)
+		           total_label(1).xlsx (outputs)
 
 ### 4.CNN Based Defect Detection
     
@@ -347,7 +347,7 @@ All results stored in:
 			
     Python file: ml.py (Src)
 	
-    output: ml_defect_detection_results.xlsx (outputs)
+    Output: ml_defect_detection_results.xlsx (outputs)
 
 ### 5.Tracebility log:
 
@@ -358,7 +358,7 @@ All results stored in:
 	
 	Python file: sqlite_final.py (Src)
 	
-	output: final_combined_result5.xlsx (outputs)
+	Output: final_combined_result5.xlsx (outputs)
 		inspection_results.db (outputs)
 		FinalInspectionResults.sql (Src)
 
