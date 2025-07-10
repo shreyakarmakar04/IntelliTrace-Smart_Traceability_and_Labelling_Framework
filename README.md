@@ -302,7 +302,7 @@ A structured PowerPoint presentation explaining the project's motivation, compon
 It includes diagrams, sample outputs, and key insights for stakeholders or reviewers.  <br>  
 
 -Right-click and choose “Save Link As” to download → 
-[⬇️ Download Solution Slides (PPTX)](https://github.com/your-username/your-repo-name/raw/main/report/problem_statement_and_solution_steps_ppt.pptx)
+[⬇️ Download Solution Slides (PPTX)](https://github.com/shreyakarmakar04/IntelliTrace-Smart_Traceability_and_Labelling_Framework/raw/main/report/problem_statement_and_solution_steps_ppt.pptx)
 
 ---
 
