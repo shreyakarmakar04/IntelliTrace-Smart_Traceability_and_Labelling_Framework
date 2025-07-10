@@ -284,6 +284,7 @@ All results stored in:
 
 ---
 
+
 ## 📂 File Access Order As Per Solution Steps
 
 ### 1. Product arrival and verification:
@@ -313,13 +314,13 @@ All results stored in:
 ### 3.YOLOv5
 
 ### 4.CNN Based Defect Detection
-    4. ML Defect Detection:
-	Required input file: Final_Traceability_data.xlsx (datasets)
+    
+    Required input file: Final_Traceability_data.xlsx (datasets)
 			     bottle images (datasets)		     
 			
-	Python file: ml.py (Src)
+    Python file: ml.py (Src)
 	
-	output: ml_defect_detection_results.xlsx (outputs)
+    output: ml_defect_detection_results.xlsx (outputs)
 
 ### 5.Tracebility log:
 
@@ -338,6 +339,7 @@ All results stored in:
 	  
 	Python file: futher_enhanced_StreamlitUI.py (Src)
 ---
+
 
 ## 📘 Detailed Report  
 You can view the full project report here:  
