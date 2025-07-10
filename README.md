@@ -304,7 +304,7 @@ All results stored in:
 		
 		output: qrcodes (images)
 
-	2. Creation of Label:
+    2. Creation of Label:
 		Required input files: Final_Traceability_data.xlsx (datasets)
 				      qrcodes (images)
 
@@ -312,6 +312,28 @@ All results stored in:
 		
 		output: final_labels11 (images)
 ### 3.YOLOv5
+    1.YOLOv5 Model Training:
+                Required input file: label_dataset(YOLOv5 training) (datasets)
+		
+		Python file: YOLOv5 Detection Model.py (Src)
+  
+                Output: best.pt (YOLO Model Weights)
+		        best.onnx (YOLO Model Weights)
+	                best-fp16.tflite (YOLO Model Weights)
+		 
+    2.YOLO Webcam Detection of Labels:
+                Required input file: best.pt (YOLO Model Weights)
+		Python file: yolomodeltestingwithcam.py (Src)
+                Output: YOLO_webcam_detection.jpg (outputs)
+    
+    3.Yolo + OCR + QR Decode:
+                Required input file: best.pt (YOLO Model Weights)
+		                     label_images (images)
+		       
+		Python file: YOLOv5 Inference On Image Dataset.py (Src)
+  
+                Outputs: full_bounded_images (outputs)
+		         total_label(1).xlsx (outputs)
 
 ### 4.CNN Based Defect Detection
     
