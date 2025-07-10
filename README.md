@@ -19,7 +19,7 @@ An intelligent product traceability and labeling system that integrates YOLOv5-b
 - [📂 Folder Structure](#-folder-structure)
 - [📂 File Access Order As Per Solution Steps](#-File-Access-Order-As-Per-Solution-Steps)
 - [📘 Detailed Report](#-detailed-report) 
-- [📽️ Video Demonstration](#-video-demonstration)
+- [📽️ Video Demonstration](#video-demonstration)
 - [📊 Project Presentation (PPT)](#-project-presentation-ppt)    
 - [👨‍💻 Made by](#-made-by)
 
