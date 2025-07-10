@@ -338,7 +338,7 @@ All results stored in:
 	            Python file: YOLOv5 Inference On Image Dataset.py (Src)
   
                 Output: full_bounded_images (outputs)
-		           total_label(1).xlsx (outputs)
+		            total_label(1).xlsx (outputs)
 
 ### 4.CNN Based Defect Detection
     
