@@ -17,6 +17,7 @@ An intelligent product traceability and labeling system that integrates YOLOv5-b
 - [🖼️ Sample Output Snapshots](#-sample-output-snapshots)
 - [▶️ How to Run the Project](#-how-to-run-the-project)
 - [📂 Folder Structure](#-folder-structure)
+- [📂 File Access Order As Per Solution Steps](#-File-Access-Order-As-Per-Solution-Steps)
 - [📘 Detailed Report](#-detailed-report) 
 - [📽️ Video Demonstration](#-)           
 - [📊 Project Presentation (PPT)](#-)     
@@ -283,6 +284,60 @@ All results stored in:
 
 ---
 
+## 📂 File Access Order As Per Solution Steps
+
+### 1. Product arrival and verification:
+
+	Required input file: Final_Traceability_data.xlsx (datasets)
+ 
+	Python file: product_arrival&verification.py (Src)
+	
+	output: Rejected_Log.csv (outputs)
+
+### 2. Creation of label:
+    1. Creation of QRCodes:
+
+		Required input file: Final_Traceability_data.xlsx (datasets)
+
+		Python file: QRCodes_generation.py (Src)
+		
+		output: qrcodes (images)
+
+	2. Creation of Label:
+		Required input files: Final_Traceability_data.xlsx (datasets)
+				                qrcodes (images)
+
+		Python file: label_final.py(Src)
+		
+		output: final_labels11 (images)
+### 3.YOLOv5
+
+### 4.CNN Based Defect Detection
+    4. ML Defect Detection:
+	Required input file: Final_Traceability_data.xlsx (datasets)
+			               bottle images (datasets)		     
+			
+	Python file: ml.py (Src)
+	
+	output: ml_defect_detection_results.xlsx (outputs)
+
+### 5.Tracebility log:
+
+	Required input files: Final_Traceability_data.xlsx (datasets)
+			                ml_defect_detection_results.xlsx (outputs)
+			                Rejected_Log.csv (outputs)
+		                   total_label(1).xlsx (outputs)
+	
+	Python file: sqlite_final.py (Src)
+	
+	output: final_combined_result5.xlsx (outputs)
+		     inspection_results.db (outputs)
+		     FinalInspectionResults.sql (Src)
+
+### 6.Futher enhanced (StreamLit UI):
+	  
+	Python file: futher_enhanced_StreamlitUI.py (Src)
+---
 
 ## 📘 Detailed Report  
 You can view the full project report here:  
