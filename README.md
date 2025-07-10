@@ -305,6 +305,7 @@ All results stored in:
 		Output: qrcodes (images)
 
     2. Creation of Label:
+    
 		Required input files: Final_Traceability_data.xlsx (datasets)
 				      qrcodes (images)
 
