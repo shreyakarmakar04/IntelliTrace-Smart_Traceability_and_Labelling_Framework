@@ -305,7 +305,7 @@ All results stored in:
 
 	2. Creation of Label:
 		Required input files: Final_Traceability_data.xlsx (datasets)
-				                qrcodes (images)
+				      qrcodes (images)
 
 		Python file: label_final.py(Src)
 		
@@ -315,7 +315,7 @@ All results stored in:
 ### 4.CNN Based Defect Detection
     4. ML Defect Detection:
 	Required input file: Final_Traceability_data.xlsx (datasets)
-			               bottle images (datasets)		     
+			     bottle images (datasets)		     
 			
 	Python file: ml.py (Src)
 	
@@ -324,15 +324,15 @@ All results stored in:
 ### 5.Tracebility log:
 
 	Required input files: Final_Traceability_data.xlsx (datasets)
-			                ml_defect_detection_results.xlsx (outputs)
-			                Rejected_Log.csv (outputs)
-		                   total_label(1).xlsx (outputs)
+			      ml_defect_detection_results.xlsx (outputs)
+			      Rejected_Log.csv (outputs)
+		              total_label(1).xlsx (outputs)
 	
 	Python file: sqlite_final.py (Src)
 	
 	output: final_combined_result5.xlsx (outputs)
-		     inspection_results.db (outputs)
-		     FinalInspectionResults.sql (Src)
+		inspection_results.db (outputs)
+		FinalInspectionResults.sql (Src)
 
 ### 6.Futher enhanced (StreamLit UI):
 	  
