@@ -31,7 +31,7 @@ To develop an AI-powered smart product inspection and labeling system that autom
 ---
 
 ## 🧩 Problem Description
-In high-volume manufacturing industries like electronics and medical devices, manual label verification is time-consuming and error-prone. This project addresses the challenge of:
+In high-volume manufacturing industries manual label verification is time-consuming and error-prone. This project addresses the challenge of:
 - Automating the verification of product metadata from images
 - Decoding QR and barcodes accurately
 - Detecting surface defects using vision-based methods
