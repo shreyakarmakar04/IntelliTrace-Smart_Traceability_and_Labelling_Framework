@@ -114,16 +114,19 @@ This project is a software-only simulation of an AI-powered smart traceability a
 ## 🛠️ Key Technologies and Libraries
 
 
-| Category             | Tools / Libraries                        |
-|----------------------|------------------------------------------|
-| Programming Language | Python 3.8+                              |
-| OCR                  | EasyOCR, Tesseract                       |
-| Object Detection     | YOLOv5 (custom trained using Ultralytics)|
-| CV & Processing      | OpenCV, PIL, Pyzbar                      |
-| ML Framework         | PyTorch, Scikit-learn                    |
-| Visualization        | Matplotlib, Streamlit                    |
-| Data Logging         | Pandas, SQLite, OpenPyXL                 |
-| GUI                  | Streamlit                                |
+| Category                               | Tools / Libraries Used                                                              |
+|----------------------------------------|-------------------------------------------------------------------------------------|
+| **Programming Language**               | Python 3.8+                                                                         |
+| **OCR**                                | EasyOCR, Tesseract (pytesseract)                                                    |
+| **Object Detection**                   | YOLOv5 (custom-trained using Ultralytics)                                           |
+| **Computer Vision & Image Processing** | OpenCV, PIL (Pillow), Pyzbar                                                        |
+| **Machine Learning Frameworks**        | PyTorch, TorchVision (with pre-trained ResNet18), PCA, One-Class SVM, Scikit-learn  |
+| **Data Handling & Export**             | Pandas, NumPy, OpenPyXL, Joblib                                                     |
+| **Visualization & UI**                 | Matplotlib, Seaborn, Streamlit                                                      |
+| **QR Code Processing**                 | Pyzbar, qrcode                                                                      |
+| **Progress & Utilities**               | tqdm, warnings, os, glob                                                            |
+| **Database & Logging**                 | SQLite (used with Pandas for logging, though not explicitly shown in code snippet)  |
+
 
 
 > **use command**: sudo apt-get install -y tesseract-ocr libzbar0
@@ -215,7 +218,7 @@ All results stored in:
 
 -After performing the above two steps, access and run the files in the following order:
 
-### 1. Product arrival and verification:
+### 1. Product Arrival and Verification:
 
 	Required input file: Final_Traceability_data.xlsx (datasets)
  
@@ -223,7 +226,7 @@ All results stored in:
 	
 	Output: Rejected_Log.csv (outputs)
 
-### 2. Creation of label:
+### 2. Creation of Label:
     1. Creation of QRCodes:
 
 		Required input file: Final_Traceability_data.xlsx (datasets)
@@ -278,7 +281,7 @@ All results stored in:
 	
     Output: ml_defect_detection_results.xlsx (outputs)
 
-### 5.Tracebility log:
+### 5.Traceability Log:
 
 	Required input files: Final_Traceability_data.xlsx (datasets)
 			      ml_defect_detection_results.xlsx (outputs)
@@ -291,7 +294,7 @@ All results stored in:
 		inspection_results.db (outputs)
 		FinalInspectionResults.sql (Src)
 
-### 6.Futher enhanced (StreamLit UI):
+### 6.Futher Enhanced UI (StreamLit UI):
 	  
 	Python file: futher_enhanced_StreamlitUI.py (Src)
 
